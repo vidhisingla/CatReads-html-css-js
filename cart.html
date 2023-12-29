@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tech Project</title>
+    <link rel="stylesheet" href="style_homepage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <script src="script.js" async></script>
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="book_logo2.jpg" alt="logo" class="logo"></a>
+        <div class="navbar_list">
+            <ul id="navbar">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="cart.html">Help</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="comp_form">
+        <form id="form" action="/">
+            <h1>Complain Form</h1>
+
+            <div class="input-control">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text">
+                <div class="error"><p id="name_er"></p></div>
+            </div>
+
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"><p id="email_er"></p></div>
+            </div>
+
+            <div class="input-control">
+                <label for="phone_number">Phone Number</label>
+                <input id="phone_number"name="phone_number" type="text">
+                <div class="error"><p id="phn_er"></p></div>
+            </div>
+
+            <div class="input-control">
+                <label for="productid">Product ID</label>
+                <input id="productid"name="productid" type="text">
+                <div class="error"><p id="proid_er"></p></div>
+            </div>
+
+            <div class="input-control">
+                <label for="complain">Complain details</label>
+                <textarea name="complain"></textarea>
+            </div>
+
+            <div class="form_btn">
+                <button type="reset"  onClick="window.location.reload(true)">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="footer">
+        <div class="column">
+            
+            <h4>Contact</h4>
+            <p><strong>Address : </strong>text</p>
+            <p><strong>Phone : </strong>000000000</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+
+                <div class="follow_icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter-x"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-pinterest"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="column install">
+            <h4>Install app</h4>
+            <p>from app store or google play</p>
+            <div class="row download_icon">
+                <img src="appstore_icon.jpg" alt="app store icon">
+                <img src="playstore_icon.jpg" alt="play store icon">
+            </div>
+            <p>Paymeny Gateways</p>
+            <img class="payment" src="payment.jpg" alt="pay opt pic">
+        </div>
+    </section>
+
+
+</body>
+
+</html>

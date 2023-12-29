@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style_homepage.css">
+    <script src="script_form.js" async></script>
+</head>
+
+<body>
+    
+    
+    <form id="form" action="submit.php" method="post">
+        <h1>SignUp Form</h1>
+
+        <div class="input-control">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text">
+            <div class="error"><p id="name_er"></p></div>
+        </div>
+
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text">
+            <div class="error"><p id="email_er"></p></div>
+        </div>
+
+        <div class="input-control">
+            <label for="phone_number">Phone Number</label>
+            <input id="phone_number"name="phone_number" type="text">
+            <div class="error"><p id="phn_er"></p></div>
+        </div>
+
+        <div class="input-control">
+            <label for="password">Password</label>
+            <input id="password"name="password" type="password" title="must contains a-z A-Z and {#, $ , @ , &}  and min-length must be 8 ">
+            <div class="error"><p id="pswd_er"></p></div>
+        </div>
+
+        <div class="input-control">
+            <label for="cpassword">Confirm Password</label>
+            <input id="cpassword"name="cpassword" type="password">
+            <div class="error"><p id="cpswd_er"></p></div>
+        </div>    
+
+        <div class="form_btn">
+            <button type="reset"  onClick="window.location.reload(true)">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+   
+
+</body>
+
+</html>

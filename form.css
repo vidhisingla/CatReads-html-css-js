@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+h2{
+    margin-top: 100px;
+}
+#form {
+    width: 200px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+    border: 1px solid #0e0f0e;
+    border-radius: 4px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    font-size: 15px;
+    background-color: rgb(147, 136, 118);
+}
+
+#form h1 {
+    font-size: 25px;
+    color: #0f2027;
+    text-align: center;
+}
+
+#form input{
+    margin: 20px 20px 20px 0;
+}
+
+#form.sub {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(60, 58, 52);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+}
